@@ -33,6 +33,7 @@ newAttraction.id = 'vespa';
 // assign the newAttraction element the text 'Rent a Vespa' as its inner HTML.
 newAttraction.innerHTML = 'Rent a Vespa';
 
+// append the newAttraction element to the list of top attractions with the ID of italy-attractions.
 const italyAttractionsList = document.getElementById('italy-attractions');
 italyAttractionsList.appendChild(newAttraction);
 
